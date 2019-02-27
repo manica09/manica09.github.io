@@ -1,0 +1,108 @@
+body {
+    background-color: #EE964B;
+}
+
+h3 {
+    color: indianred;
+    text-transform: capitalize;
+}
+
+.container {
+    border-radius: 15px 50px 50px 50px;
+    background-color: #FAF0CA;
+}
+
+.row {
+    margin: auto;
+}
+
+#header {
+    border: solid;
+    border-color: black;
+    border-radius: 15px 50px 50px 50px;
+    background-color: #C6D8AF;
+}
+
+#fullname {
+    margin-top: 10;
+}
+
+#row a {
+    display: block;
+    width: 60px;
+}
+
+#navigation {
+    margin: 10;
+    padding: 0;
+    position: sticky;
+    border-radius: 15px 15px 15px 15px;
+    top: 1;
+    background-color: #0D3B66;
+}
+
+#body {
+    border: solid;
+    border-color: #0D3B66;
+}
+
+.col a {
+    display: block;
+    color: #F4D35E;
+    text-align: center;
+    border-radius: 50px 50px 50px 50px;
+    padding: 14px 16px;
+    text-decoration: none;
+    overflow: auto;
+}
+
+.col a:hover {
+    background-color: #EE964B;
+}
+
+#profile {
+    margin-left: 50;
+    border-radius: 50%;
+    margin-top: 10;
+    margin-bottom: 10;
+    width: 200px;
+    height: 200px;
+}
+
+#To {
+    margin-top: 20;
+    margin-left: 10;
+    text-align: left;
+}
+
+#by {
+    color: #0D3B66;
+    margin-bottom: 20;
+    margin-right: 10;
+    text-align: right;
+}
+
+#tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+#message {
+    margin: 10px;
+    padding: 10px;
+}
+
+#tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
